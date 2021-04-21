@@ -1,0 +1,25 @@
+{
+  "name": "react-scripts2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "react-scripts2": "./bin/react-scripts2.js"
+  },
+  "scripts": {
+    "build": "node ./bin/react-scripts2.js build"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
+    "chalk": "^4.1.1",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^9.1.0",
+    "html-webpack-plugin": "^5.3.1",
+    "open": "^8.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.35.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
